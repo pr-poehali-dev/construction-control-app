@@ -17,8 +17,19 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			'sans': ['Open Sans', 'system-ui', 'sans-serif']
+		},
 		extend: {
 			colors: {
+				// Construction app theme colors
+				construction: {
+					orange: '#FF6B35',
+					blue: '#2E86AB',
+					gray: '#A23B72',
+					light: '#F18F01',
+					green: '#C73E1D'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
